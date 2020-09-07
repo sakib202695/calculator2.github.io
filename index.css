@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 1000px;
+}
+body {
+    background-color:black;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    padding: 12px 16px;
+}
+
+.clear {
+    background-color: rgb(224, 123, 123);
+}
+.clear:hover {
+    background-color: rgb(207, 81, 81);
+}
+
+.equal {
+    background-color: rgb(91, 194, 146);
+}
+
+.equal:hover {
+    background-color: rgb(25, 180, 108);
+}
+
+.opr {
+    background-color: rgb(255, 204, 110);
+}
+
+.opr:hover {
+    background-color: rgb(255, 178, 35);
+}
+
+button:hover {
+    background-color: rgb(201, 207, 211);
+
+} 
+
+input {
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
